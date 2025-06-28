@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C41B421B2E0F813C005F09AD /* CONTRIBUTING.md in Resources */ = {isa = PBXBuildFile; fileRef = C41B421A2E0F8130005F09AD /* CONTRIBUTING.md */; };
 		C449FA4A2DFFCFC400C05EF4 /* OpenADK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C449FA3E2DFFCFC400C05EF4 /* OpenADK.framework */; };
 		C4AFFE5C2E00B306001D60F8 /* OpenADKObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AFFE462E00AB1B001D60F8 /* OpenADKObjC.framework */; platformFilters = (macos, ); };
 		C4AFFE5D2E00B306001D60F8 /* OpenADKObjC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C4AFFE462E00AB1B001D60F8 /* OpenADKObjC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -46,6 +47,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C41B421A2E0F8130005F09AD /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
 		C449FA3E2DFFCFC400C05EF4 /* OpenADK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenADK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C449FA492DFFCFC400C05EF4 /* OpenADKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenADKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AFFE462E00AB1B001D60F8 /* OpenADKObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenADKObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +135,7 @@
 		C449FA342DFFCFC400C05EF4 = {
 			isa = PBXGroup;
 			children = (
+				C41B421A2E0F8130005F09AD /* CONTRIBUTING.md */,
 				C4D5A4D42DFFDF2F00002E71 /* Sources */,
 				C449FA3F2DFFCFC400C05EF4 /* Products */,
 				C4D5A4D02DFFDCC900002E71 /* Package.swift */,
@@ -295,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C41B421B2E0F813C005F09AD /* CONTRIBUTING.md in Resources */,
 				C4D5A4D12DFFDCC900002E71 /* Package.swift in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
